@@ -54,12 +54,12 @@ const config: MenuEntry[] = [
      icon: 'TicketIcon',
     items: [
       {
-         label: 'Prediction',
+         label: 'Doge Bets',
          href: 'https://dogebets.gg',
        },
        {
-       label: 'CoinFlip',
-         href: 'https://tokenpvp.com/tokens/0x21f557ab017a9af912089e49766e90889e37fd17',
+       label: 'Candle Genie',
+         href: 'https://candlegenie.io/predictions/',
       },
      ],
   },
