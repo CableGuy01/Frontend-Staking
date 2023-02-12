@@ -37,6 +37,7 @@ export enum QuoteToken {
   'SHIB' = 'SHIB',
   'DOGE' = 'DOGE',
   'HIGH' = 'HIGH',
+  'FLASK' = 'FLASK',
   'FORK' = 'CAKE',
 }
 
