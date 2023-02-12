@@ -49,7 +49,7 @@ const config: MenuEntry[] = [
 //       },
 //     ],
 //   },
-//   {
+     {
      label: 'Win Tokens',
      icon: 'TicketIcon',
     items: [
