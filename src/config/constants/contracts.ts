@@ -83,6 +83,10 @@ export default {
     56: '0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63',
     97: '',
   },
+  flask: {
+    56: '0x11AD2281533d32a0aD16DA012A4DBAB846081d9b',
+    97: '',
+  },
 fork: {
     97: '',
     56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
