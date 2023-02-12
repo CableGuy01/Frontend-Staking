@@ -50,20 +50,20 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
 
-  {
-    pid: 3,
-    lpSymbol: 'LAB-FLASK LP',
-    lpAddresses: {
-      97: '',
-      56: '0x61e0e901004eb5d1f59af033f43b78576b7f1872',   // lp address token-bnb
-    },
-    tokenSymbol: 'FLASK',
-    tokenAddresses: {
-      97: '',
-      56: '0x11AD2281533d32a0aD16DA012A4DBAB846081d9b', // token address
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
+//   {
+//     pid: 3,
+//     lpSymbol: 'LAB-FLASK LP',
+//     lpAddresses: {
+//       97: '',
+//       56: '0x61e0e901004eb5d1f59af033f43b78576b7f1872',   // lp address token-bnb
+//     },
+//     tokenSymbol: 'FLASK',
+//     tokenAddresses: {
+//       97: '',
+//       56: '0x11AD2281533d32a0aD16DA012A4DBAB846081d9b', // token address
+//     },
+//     quoteTokenSymbol: QuoteToken.BNB,
+//     quoteTokenAdresses: contracts.wbnb,
+//   },
 ]
 export default farms
