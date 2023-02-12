@@ -12,57 +12,57 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://dex.siacashcoin.com/',
+        href: 'https://dex.labswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://dex.siacashcoin.com/#/pool',
+        href: 'https://dex.labswap.finance/#/pool',
       },
     ],
   },
   {
-    label: 'SCC Farms',
+    label: 'LabSwap Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'SCC Pools',
+    label: 'LabSwap Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Bulk Send Dapp',
-    icon: 'MoreIcon',
-    href: 'https://bulksend.siacashcoin.com',
-  },
-  {
-    label: 'LaunchPad',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Create Token ',
-        href: 'https://createtoken.siacashcoin.com/',
-      },
-      {
-        label: 'Safemoon Fork',
-        href: 'https://createsafemoon.siacashcoin.com',
-      },
-    ],
-  },
-  {
-    label: 'Win Tokens',
-    icon: 'TicketIcon',
-    items: [
-      {
-        label: 'Prediction',
-        href: 'https://dogebets.siacashcoin.com/',
-      },
-      {
-        label: 'CoinFlip',
-        href: 'href:https://tokenpvp.com/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51',
-      },
-    ],
-  },
+//   {
+//     label: 'Bulk Send Dapp',
+//     icon: 'MoreIcon',
+//     href: 'https://bulksend.siacashcoin.com',
+//   },
+//   {
+//     label: 'LaunchPad',
+//     icon: 'InfoIcon',
+//     items: [
+//       {
+//         label: 'Create Token ',
+//         href: 'https://createtoken.siacashcoin.com/',
+//       },
+//       {
+//         label: 'Safemoon Fork',
+//         href: 'https://createsafemoon.siacashcoin.com',
+//       },
+//     ],
+//   },
+//   {
+//     label: 'Win Tokens',
+//     icon: 'TicketIcon',
+//     items: [
+//       {
+//         label: 'Prediction',
+//         href: 'https://dogebets.siacashcoin.com/',
+//       },
+//       {
+//         label: 'CoinFlip',
+//         href: 'href:https://tokenpvp.com/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51',
+//       },
+//     ],
+//   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
