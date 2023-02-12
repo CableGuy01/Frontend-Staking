@@ -21,12 +21,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'LabSwap Farms',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'LabSwap Pools',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -50,19 +50,19 @@ const config: MenuEntry[] = [
 //     ],
 //   },
 //   {
-//     label: 'Win Tokens',
-//     icon: 'TicketIcon',
-//     items: [
-//       {
-//         label: 'Prediction',
-//         href: 'https://dogebets.siacashcoin.com/',
-//       },
-//       {
-//         label: 'CoinFlip',
-//         href: 'href:https://tokenpvp.com/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51',
-//       },
-//     ],
-//   },
+     label: 'Win Tokens',
+     icon: 'TicketIcon',
+    items: [
+      {
+         label: 'Prediction',
+         href: 'https://dogebets.gg',
+       },
+       {
+       label: 'CoinFlip',
+         href: 'href:https://tokenpvp.com/tokens/0x21f557ab017a9af912089e49766e90889e37fd17',
+      },
+     ],
+  },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
