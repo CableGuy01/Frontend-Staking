@@ -4,15 +4,15 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'SCC',
+    lpSymbol: 'LAB',
     lpAddresses: {
       97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51',
+      56: '0x21f557ab017a9af912089e49766e90889e37fd17',
     },
     tokenSymbol: 'SYRUP',
     tokenAddresses: {
       97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51',
+      56: '0x21f557ab017a9af912089e49766e90889e37fd17',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -20,15 +20,15 @@ const farms: FarmConfig[] = [
 
   {
     pid: 1,
-    lpSymbol: 'SCC-BNB LP',
+    lpSymbol: 'LAB-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x41496D9e7F1364dab33433d28962745FAaF6a577',   // lp address token-bnb
+      56: '0xf1a2403897c2683bb7aa08ef6aebce89407e1987',   // lp address token-bnb
     },
-    tokenSymbol: 'SCC',
+    tokenSymbol: 'LAB',
     tokenAddresses: {
       97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
+      56: '0x21f557ab017a9af912089e49766e90889e37fd17', // token address
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -36,65 +36,34 @@ const farms: FarmConfig[] = [
   
   {
     pid: 2,
-    lpSymbol: 'SCC-BUSD LP',
+    lpSymbol: 'FLASK-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xf04bc5e9EB85374DDa27DD06FEbD1fe2e0CBdB16',   // lp address token-bnb
+      56: '0x2d7f68887c8badebe69fd3684b61dccb1df22fea',   // lp address token-bnb
     },
-    tokenSymbol: 'SCC',
+    tokenSymbol: 'FLASK',
     tokenAddresses: {
       97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 3,
-    lpSymbol: 'MICROSANTA-SCC LP',
-    lpAddresses: {
-      97: '',
-      56: '0xf04bc5e9EB85374DDa27DD06FEbD1fe2e0CBdB16',   // lp address token-bnb
-    },
-    tokenSymbol: 'SCC',
-    tokenAddresses: {
-      97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
-    },
-    quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.cake,
-  },
-  {
-    pid: 5,
-    lpSymbol: 'SCC-SHIB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xfe7be78a50a514b4390316a8e49d7574ba68ef64',   // lp address token-bnb
-    },
-    tokenSymbol: 'SCC',
-    tokenAddresses: {
-      97: '',
-      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
-    },
-    quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.cake,
-  },
-  {
-    pid: 7,
-    lpSymbol: 'DOGE-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xac109C8025F272414fd9e2faA805a583708A017f',   // lp address token-bnb
-    },
-    tokenSymbol: 'DOGE',
-    tokenAddresses: {
-      97: '',
-      56: '0xba2ae424d960c26247dd6c32edc70b295c744c43', // token address
+      56: '0x11AD2281533d32a0aD16DA012A4DBAB846081d9b', // token address
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  
-]
 
+  {
+    pid: 3,
+    lpSymbol: 'LAB-FLASK LP',
+    lpAddresses: {
+      97: '',
+      56: '0x61e0e901004eb5d1f59af033f43b78576b7f1872',   // lp address token-bnb
+    },
+    tokenSymbol: 'FLASK',
+    tokenAddresses: {
+      97: '',
+      56: '0x11AD2281533d32a0aD16DA012A4DBAB846081d9b', // token address
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },.
+]
 export default farms
