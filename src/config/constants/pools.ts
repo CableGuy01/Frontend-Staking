@@ -21,7 +21,7 @@ const pools: PoolConfig[] = [
   },
  {
     sousId: 1,
-    tokenName: 'flask',
+    tokenName: 'FLASK',
     tokenAddress: '0x11ad2281533d32a0ad16da012a4dbab846081d9b'   // token address
     stakingTokenName: QuoteToken.FLASK,
     stakingTokenAddress: '0x11ad2281533d32a0ad16da012a4dbab846081d9b',  // token address
