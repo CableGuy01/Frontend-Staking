@@ -30,11 +30,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-//   {
-//     label: 'Bulk Send Dapp',
-//     icon: 'MoreIcon',
-//     href: 'https://bulksend.siacashcoin.com',
-//   },
+  {
+    label: 'About Us',
+    icon: 'MoreIcon',
+    href: 'https://labswap.io',
+  },
 //   {
 //     label: 'LaunchPad',
 //     icon: 'InfoIcon',
