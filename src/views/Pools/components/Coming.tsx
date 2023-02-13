@@ -49,7 +49,7 @@ const Coming: React.FC = () => {
         <Button
           variant="secondary"
           as="a"
-          href="https://t.me/SiaCashCoinChat"
+          href="https://t.me/labswapcommunity"
           external
           width="100%"
           mb="16px"
