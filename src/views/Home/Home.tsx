@@ -83,11 +83,11 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'SiaCashCoin')}
+          {TranslateString(576, 'LAB')}
         </Heading>
-        <Text>{TranslateString(578, 'SiaCashCoin is pending migration to Binance Smart Chain! ')}</Text>
-        <Text>{TranslateString(578, 'The new SCC BSC smart contract address is')}</Text>
-        <Text>{TranslateString(578, '0xc26EaFC627624baDf990f8d30116892eD204DB51')}</Text>
+        <Text>{TranslateString(578, 'Safe Reliable Open Source Defi Staking  ')}</Text>
+        <Text>{TranslateString(578, 'LAB token contract address is')}</Text>
+        <Text>{TranslateString(578, '0x21f557ab017a9af912089e49766e90889e37fd17')}</Text>
       </Hero>
       <div>
         <Cards>
