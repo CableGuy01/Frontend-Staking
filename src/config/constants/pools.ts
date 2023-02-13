@@ -39,11 +39,11 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   },
  {
-    ssousId: 1,
-    tokenName: '$flask',
+   sousId: 1,
+    tokenName: 'FLASK',
     tokenAddress: '0x11ad2281533d32a0ad16da012a4dbab846081d9b'   // token address
-    stakingTokenName: QuoteToken.$FLASK,
-    stakingTokenAddress: '$flask address',  // token address
+    stakingTokenName: QuoteToken.CAKE,
+    stakingTokenAddress: '0x11ad2281533d32a0ad16da012a4dbab846081d9b',  // token address
     contractAddress: {
       97: '',
       56: '0x03d8c7604253b33F026654a3C772B5A022e39efe',
