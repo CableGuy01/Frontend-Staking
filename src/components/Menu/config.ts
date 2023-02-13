@@ -68,11 +68,11 @@ const config: MenuEntry[] = [
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
-  // {
-  //   label: 'Collectibles',
-  //   icon: 'NftIcon',
-  //   href: '/collectibles',
-  // },
+  {
+    label: 'Collectibles',
+    icon: 'NftIcon',
+    href: 'https://farms.labswap.finance/nft',
+  },
   // {
   //   label: 'Teams & Profile',
   //   icon: 'GroupsIcon',
