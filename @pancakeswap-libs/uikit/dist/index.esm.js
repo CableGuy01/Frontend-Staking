@@ -2456,14 +2456,14 @@ var socials = [
         items: [
             {
                 label: "Official Channel",
-                href: "https://t.me/SiaCashCoinChat",
+                href: "https://t.me/labswapcommunity",
             }
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/Siacashcoin",
+        href: "https://twitter.com/labswap_io",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2579,7 +2579,7 @@ var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
     return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0xc26EaFC627624baDf990f8d30116892eD204DB51", target: "_blank" },
         React.createElement(Icon$y, { width: "24px", mr: "8px" }),
-        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
+        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React.memo(CakePrice);
 var templateObject_1$F;
