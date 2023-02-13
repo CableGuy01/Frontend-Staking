@@ -37,12 +37,12 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            {TranslateString(738, 'Syrup Pool on SCC')}
+            {TranslateString(738, 'Syrup Pool on LAB')}
           </Heading>
           <ul>
-            <li>{TranslateString(580, 'Stake SCC to earn new tokens.')}</li>
-            <li>{TranslateString(486, 'You can unstake at any time.')}</li>
-            <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
+            <li>{TranslateString(580, 'Stake LAB to earn new tokens.')}</li>
+            <li>{TranslateString(486, 'No Liquidity Required Stake Tokens To Earn Rewards.')}</li>
+            <li>{TranslateString(406, 'Rewards Are Sent Per Block.')}</li>
           </ul>
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
